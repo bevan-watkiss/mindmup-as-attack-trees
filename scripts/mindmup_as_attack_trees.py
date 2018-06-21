@@ -436,6 +436,8 @@ def update_node_apt_colour(node, apt):
 		apt_colour = '#FFFF00'
 	elif apt == 2:
 		apt_colour = '#00FF00'
+	elif apt == -1:
+		apt_colour = '#000088'
 	else:
 		apt_colour = '#00FFFF'
 

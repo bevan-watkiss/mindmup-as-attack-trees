@@ -175,6 +175,8 @@ def derive_evita_apt(node):
 		apt = 3
 	elif total_rap < 25:
 		apt = 2
+	elif total_rap == float('inf'):
+		apt = -1
 	else:
 		apt = 1
 	#TODO support non-zero controllability
